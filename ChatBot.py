@@ -2,7 +2,7 @@ import os
 from typing import TypedDict
 from dotenv import load_dotenv
 
-from langgraph.graph import staeGraph, START, END
+from langgraph.graph import stateGraph, START, END
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
